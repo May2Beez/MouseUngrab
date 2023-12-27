@@ -1,11 +1,11 @@
 {
-  "package": "${mixinGroup}",
+  "package": "com.github.may2beez.mouseungrab.mixin",
   "refmap": "mixins.${modid}.refmap.json",
   "minVersion": "0.7",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinFMLHandshakeMessage"
   ],
   "client": [
-	"MixinGuiMainMenu"
   ]
 }
